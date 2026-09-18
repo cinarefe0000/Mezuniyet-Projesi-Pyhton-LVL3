@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sattım.com | Türkiye'nin Lider Dijital Araç Pazarı</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sattim: {
+                            gold: '#fbbf24',
+                            dark: '#0f172a',
+                            card: '#1e293b',
+                            accent: '#3b82f6'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-sattim-dark text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-slate-900">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-sattim-dark/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-amber-400 flex items-center justify-center text-slate-950 font-extrabold text-xl shadow-lg shadow-amber-500/20">
+                    <i class="fa-solid fa-car-side"></i>
+                </div>
+                <span class="text-2xl font-black tracking-tight text-white">sattım<span class="text-amber-400">.com</span></span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
+                <a href="#ozellikler" class="hover:text-amber-400 transition">Özellikler</a>
+                <a href="#komutlar" class="hover:text-amber-400 transition">Komutlar</a>
+                <a href="#pazarlik" class="hover:text-amber-400 transition">Pazarlık Sistemi</a>
+            </div>
+            <div>
+                <a href="#davet" class="bg-amber-400 hover:bg-amber-300 text-slate-950 px-5 py-2.5 rounded-xl font-bold transition shadow-lg shadow-amber-400/10 flex items-center gap-2">
+                    <i class="fa-brands fa-discord text-lg"></i> Botu Ekle
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 relative overflow-hidden">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-amber-400 text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-bolt"></i> Discord'un En Güvenli Otomobil Pazarı
+                    </div>
+                    <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                        Aracınızı <span class="text-amber-400">Hemen Yayınlayın</span>, Alıcıyla Kolayca Anlaşın.
+                    </h1>
+                    <p class="text-slate-400 text-lg max-w-xl mx-auto lg:mx-0">
+                        sattım.com; Discord sunucunuz içinde ilan vermenizi, teklifler toplamanızı, pazarlık yapmanızı ve güvenle araç satmanızı sağlayan profesyonel bir pazar yeri botudur.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#davet" class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 text-slate-950 px-8 py-4 rounded-xl font-extrabold text-center transition shadow-xl shadow-amber-400/20 flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-discord text-xl"></i> Sunucuya Davet Et
+                        </a>
+                        <a href="#komutlar" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white px-8 py-4 rounded-xl font-bold text-center transition border border-slate-700 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-terminal"></i> Komutları İncele
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-2xl relative">
+                        <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
+                            <div class="flex items-center gap-2">
+                                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                            </div>
+                            <span class="text-xs text-slate-500 font-mono">sattım-vitrin.discord</span>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700/50">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-500/20 text-blue-400 flex items-center justify-center font-bold">BMW</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-white">BMW 320i - 2021</h4>
+                                        <p class="text-xs text-slate-400">İlan No: #1042</p>
+                                    </div>
+                                </div>
+                                <div class="text-amber-400 font-extrabold text-lg">1.450.000 TL</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div class="flex-1 bg-emerald-600/20 border border-emerald-500/30 text-emerald-400 py-2.5 rounded-lg text-center text-xs font-bold">
+                                    <i class="fa-solid fa-handshake"></i> Teklif Ver
+                                </div>
+                                <div class="flex-1 bg-blue-600/20 border border-blue-500/30 text-blue-400 py-2.5 rounded-lg text-center text-xs font-bold">
+                                    <i class="fa-solid fa-magnifying-glass"></i> İncele
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ozellikler" class="py-20 bg-slate-900/50 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-white tracking-tight">Neden <span class="text-amber-400">sattım.com</span>?</h2>
+                <p class="text-slate-400 mt-3">Discord toplulukları için sıfırdan tasarlanmış en gelişmiş otomotiv alım-satım ekosistemi.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-amber-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-bold mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-car-on"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Kolay İlan Oluşturma</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Marka, model, fiyat, açıklama ve görsel bilgileriyle anında şık vitrin ilanları oluşturun.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-amber-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-bold mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-comments-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Dahili Pazarlık Masası</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Teklif verin, satıcıyla DM üzerinden pazarlık yapın, karşı teklif iletin ve anlaşmayı anında kanalda duyurun.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-amber-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center text-xl font-bold mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Canlı İstatistikler</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Toplam ilan, kayıtlı üye ve gerçekleştirilen teklif istatistiklerini tek tuşla anlık olarak takip edin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="komutlar" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-white tracking-tight">Bot <span class="text-amber-400">Komutları</span></h2>
+                <p class="text-slate-400 mt-3">Sunucunuzda kullanabileceğiniz temel komut listesi.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                    <div>
+                        <code class="bg-amber-400/10 text-amber-400 px-3 py-1.5 rounded-lg font-mono font-bold text-sm">#uye [Ad Soyad]</code>
+                        <p class="text-slate-400 text-sm mt-2">Platformda işlem yapabilmek için ön kayıt oluşturmanızı sağlar.</p>
+                    </div>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Kayıt Sistemi</span>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                    <div>
+                        <code class="bg-amber-400/10 text-amber-400 px-3 py-1.5 rounded-lg font-mono font-bold text-sm">#ilan</code>
+                        <p class="text-slate-400 text-sm mt-2">sattım.com oto pazarı kontrol panelini açar (İlan ver, vitrin incele, istatistikler).</p>
+                    </div>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Ana Panel</span>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                    <div>
+                        <code class="bg-amber-400/10 text-amber-400 px-3 py-1.5 rounded-lg font-mono font-bold text-sm">#yardim</code>
+                        <p class="text-slate-400 text-sm mt-2">Bot hakkında bilgilendirme ve komut rehberini gösterir.</p>
+                    </div>
+                    <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Destek</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="davet" class="py-20 bg-gradient-to-t from-slate-900 to-sattim-dark border-t border-slate-800 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8">
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+                Sunucunuzda <span class="text-amber-400">sattım.com</span>'u Aktifleştirin
+            </h2>
+            <p class="text-slate-400 text-lg max-w-xl mx-auto">
+                Üyelerinizin kendi araçlarını alıp satabileceği harika bir deneyim sunmak için hemen botu sunucunuza ekleyin.
+            </p>
+            <div>
+                <a href="https://discord.gg/mfKyAhdP" target="_blank" class="bg-amber-400 hover:bg-amber-300 text-slate-950 px-10 py-4 rounded-xl font-extrabold text-lg inline-flex items-center gap-3 transition shadow-xl shadow-amber-400/20">
+                    <i class="fa-brands fa-discord text-2xl"></i> Botu Discord'a Ekle
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-slate-950 border-t border-slate-900 py-12 text-center text-slate-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+            <p>© 2026 sattım.com • Türkiye'nin Dijital Otomobil Pazarı. Tüm hakları saklıdır.</p>
+            <p class="text-xs text-slate-600">Bu platform Discord üzerinden çalışan otomatik bir ilan botudur.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
