@@ -1,15 +1,6 @@
 # Mezuniyet-Projesi-Pyhton-LVL3
 ## Fikri geliştirmek için kullanacağım araçlar:
 > 
-
-## Projede şu bölümler bulunacak:
-> 
-araba botu
-artı kumru gibi
-teklif vermek
-db database
-Araba satış için etkileşimli Discord botu
-
 Biz, müşterilerimize araba satma hizmetini kolaylaştırmaya gayret eden bir platformuz. Öğrencilerimize ders programını gönderen bir Discord botuna ihtiyaç duyuyoruz. Sunucumuzda bulunan tüm öğrenciler bota ulaşabilmeli, mesaj alabilmeli ve butona tıkladıklarında bot onlara ders programını göndermelidir. 
 
 Proje değeri: 100 puan
